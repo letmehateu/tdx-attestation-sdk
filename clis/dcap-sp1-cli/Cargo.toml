@@ -7,7 +7,7 @@ homepage = "https://www.ata.network/"
 license = "Apache-2.0"
 
 [dependencies]
-sp1-sdk = "2.0.0"
+sp1-sdk = "3.0.0"
 dcap-rs = { git = "https://github.com/automata-network/dcap-rs.git" }
 serde_json = { version = "1.0", default-features = false, features = ["alloc"] }
 serde = { version = "1.0", default-features = false, features = ["derive"] }
