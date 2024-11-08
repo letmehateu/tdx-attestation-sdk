@@ -14,8 +14,8 @@
 Automata TDX Attestation SDK is the most-feature complete SDK for Intel TDX development, it consists three parts:
 
 * TDX package: it helps developers to generate the Intel TDX Quote in different cloud service providers (CSP).
-* DCAP on-chain CLI: it contains Risc0 and Succinct CLIs to interact with the corresponding zkVM servers to generate the proofs, and constructs the [Automata DCAP Attestation](https://github.com/automata-network/automata-dcap-attestation) contracts calls to perform the on-chain verification.
-* Risc0 and Succinct ZK host and guest programs
+* Risc0 and Succinct CLIs to interact with the corresponding zkVM servers to generate the proofs, and constructs the [Automata DCAP Attestation](https://github.com/automata-network/automata-dcap-attestation) contracts calls to perform the on-chain verification.
+* Risc0 and Succinct ZK host and guest programs.
 
 ### Environment Preparation
 Refer to [TDX package](tdx/README.md) to setup the Intel TDX CVM in different cloud service providers (CSP).
@@ -50,7 +50,7 @@ The on-chain verification contract has been deployed to Automata Testnet at [0x3
 ### Verify Attestation off-chain
 Please follow Intel official DCAP repo [SGXDataCenterAttestationPrimitives](https://github.com/intel/SGXDataCenterAttestationPrimitives) to perform the off-chain verification.
 
-## ZK Acceleration
+## ZK Optimization
 ### Risc0
 To get started, you need to have the following installed:
 
@@ -90,8 +90,8 @@ export SP1_PRIVATE_KEY=""
 ## Acknowledgements
 We would like to acknowledge the projects below whose previous work has been instrumental in making this project a reality.
 
-* [Risc0](https://github.com/risc0/risc0): The Risc0 ZK Acceleration to reduce the gas cost to verify the Intel TDX Quote on-chain.
-* [SP1](https://github.com/succinctlabs/sp1): The Succinct ZK Acceleration to reduce the gas cost to verify the Intel TDX Quote on-chain. It supports Groth16 and Plonk proofs.
+* [Risc0](https://github.com/risc0/risc0): The Risc0 ZK Optimization to reduce the gas cost to verify the Intel TDX Quote on-chain.
+* [SP1](https://github.com/succinctlabs/sp1): The Succinct ZK Optimization to reduce the gas cost to verify the Intel TDX Quote on-chain. It supports Groth16 and Plonk proofs.
 * [Automata DCAP Attestation](https://github.com/automata-network/automata-dcap-attestation): The open-source DCAP attestation smart contracts to verify Intel TDX Quote.
 
 ## Disclaimer
