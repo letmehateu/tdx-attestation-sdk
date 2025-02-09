@@ -48,7 +48,7 @@ The first parameter represents the output of the zkVM, the second one is the zkV
 
 The on-chain verification contract has been deployed to Automata Testnet at [0x6D67Ae70d99A4CcE500De44628BCB4DaCfc1A145](https://explorer-testnet.ata.network/address/0x6D67Ae70d99A4CcE500De44628BCB4DaCfc1A145).
 
-The [ImageID](https://dev.risczero.com/terminology#image-id) currently used for the DCAP RiscZero Guest Program is `83613a8beec226d1f29714530f1df791fa16c2c4dfcf22c50ab7edac59ca637f`.
+The [ImageID](https://dev.risczero.com/terminology#image-id) currently used for the DCAP RiscZero Guest Program is `c2eafe1ba01610f3b71281f9dd3280b33d97370bb68d3ada2925d391be245e10`.
 
 The [VKEY](https://docs.succinct.xyz/verification/onchain/solidity-sdk.html?#finding-your-program-vkey) currently used for the DCAP SP1 Program is
 `004be684aaf90b70fb2d8f586ec96c36cee5f6533850b14e8b5568f4dbf31f8e`.
