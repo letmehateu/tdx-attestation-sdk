@@ -1,4 +1,3 @@
-use dcap_rs::types::quotes::version_4::QuoteV4;
 use tdx::Tdx;
 
 fn main() {
@@ -6,11 +5,12 @@ fn main() {
     let tdx = Tdx::new();
 
     // Retrieve an attestation report with default options passed to the hardware device
-    let raw_report = tdx.get_attestation_report_raw().unwrap();
-    let report = QuoteV4::from_bytes(&raw_report);
-    println!(
-        "Attestation Report raw bytes: 0x{}",
-        hex::encode(raw_report)
-    );
-    println!("Attestation Report : {:?}", report);
+    let (report, _) = tdx.get_attestation_report().unwrap();
+
+    println!("Attestation Report: {:?}", report);
+
+    // Verify the attestation report
+    tdx.verify_attestation_report(&report).unwrap();
+
+    println!("Verification successful!");
 }
