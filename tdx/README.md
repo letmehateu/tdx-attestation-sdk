@@ -13,9 +13,9 @@ The following cloud service providers (CSP) have support for Intel TDX:
 - Currently, TDX enabled VMs can only be created via gcloud or Rest API, please check out this article on how to do so: [create an instance](https://cloud.google.com/confidential-computing/confidential-vm/docs/create-a-confidential-vm-instance#gcloud)
 
 #### Azure
-- Instance Type: DCesv5-series, DCedsv5-series, ECesv5-series, ECedsv5-series
+- Instance Type: DCesv6-series, DCedsv6-series, ECesv6-series, ECedsv6-series
 - Operating System:  Ubuntu 24.04 Server (Confidential VM)- x64 Gen 2 image, Ubuntu 22.04 Server (Confidential VM) - x64 Gen 2 image.
-- Supported Region: West Europe, Central US, East US 2, North Europe
+- Supported Region: West Europe, East US, West US, West US 3
 
 #### Others
 - If you wish to use a CSP that is not listed above or run your own host, please ensure that the CSP or host is running the following specs:
