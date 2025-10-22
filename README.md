@@ -50,7 +50,7 @@ The on-chain verification contract has been deployed to Automata Testnet at [0x9
 
 The [ImageID](https://dev.risczero.com/terminology#image-id) currently used for the DCAP RiscZero Guest Program is `6f661ba5aaed148dbd2ae6217a47be56b3d713f37c65cc5ea3b006a9525bc807`.
 
-The [VKEY](https://docs.succinct.xyz/verification/onchain/solidity-sdk.html?#finding-your-program-vkey) currently used for the DCAP SP1 Program is
+The [VKEY](https://docs.succinct.xyz/docs/sp1/verification/solidity-sdk#finding-your-program-vkey) currently used for the DCAP SP1 Program is
 `0021feaf3f6c78429dac7756fac5cfed39b606e34603443409733e13a1cf06cc`.
 
 An useful DCAP zkVM clis can be found at [Automata DCAP zkVM CLI](https://github.com/automata-network/automata-dcap-zkvm-cli).
