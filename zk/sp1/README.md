@@ -43,7 +43,7 @@ let proof = client.prove(&pk, stdin.clone()).plonk().run().unwrap();
 These commands will also generate fixtures that can be used to test the verification of SP1 zkVM proofs
 inside Solidity.
 
-Pay attention, if you want to use [Automata DCAP Attestation](https://github.com/automata-network/automata-dcap-attestation) to perform the on-chain verification, we recommend using [dcap-sp1-cli](/clis/dcap-sp1-cli) to generate the zkVM proofs with the same Verification Key.
+Pay attention, if you want to use [Automata DCAP Attestation](https://github.com/automata-network/automata-dcap-attestation) to perform the on-chain verification, we recommend using [dcap-sp1-cli](script/src/bin/dcap.rs) to generate the zkVM proofs with the same Verification Key.
 
 ### Retrieve the Verification Key
 
