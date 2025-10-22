@@ -5,7 +5,7 @@ Leveraging from the [SP1](https://github.com/succinctlabs/sp1) project template,
 ## Requirements
 
 - [Rust](https://rustup.rs/)
-- [SP1](https://docs.succinct.xyz/getting-started/install.html)
+- [SP1](https://docs.succinct.xyz/docs/sp1/getting-started/install)
 - [Docker](https://docs.docker.com/get-started/get-docker/)
 
 ## Running the Project
