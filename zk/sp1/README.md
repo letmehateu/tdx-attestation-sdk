@@ -55,7 +55,7 @@ cargo prove vkey --elf elf/dcap-sp1-guest-program-elf
 
 ## Using the Prover Network
 
-We highly recommend using the Succinct prover network for any non-trivial programs or benchmarking purposes. For more information, see the [setup guide](https://docs.succinct.xyz/docs/generating-proofs/prover-network/usage).
+We highly recommend using the Succinct prover network for any non-trivial programs or benchmarking purposes. For more information, see the [setup guide](https://docs.succinct.xyz/docs/sp1/prover-network/quickstart).
 
 To get started, copy the example environment file:
 
